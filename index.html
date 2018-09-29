@@ -1,112 +1,665 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <!--- Basic Page Needs  -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <title>Alexandra Miñano || Inicio </title>
+    <meta name="description" content="Portafolio de Alexandra Miñano. UX Designer y Comunicadora social">
+    <meta name="author" content="">
+    <meta name="Portafolio" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Specific Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-light portfolio-navbar">
-        <div class="container"><a class="navbar-brand logo" href="index.html">Alexandra Miñano</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navbarNav" style="color:rgb(0,0,0);">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Inicio</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-grid-cards.html">Portafolio</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="hire-me.html">Contáctame</a></li>
-                </ul>
+    <!-- preloader start -->
+    <div id="preloader">
+        <div class="spiner">
+            <div class="spin"></div>
         </div>
-        </div>
-    </nav>
-    <main class="page lanidng-page">
-        <section class="portfolio-block block-intro" style="padding-top:0px;padding-bottom:50px;">
-            <div class="container-fluid" style="padding-right:0px;margin-left:0px;margin-right:0px;padding-left:0px;background-image:url(&quot;assets/img/apple-watch-desk-equipment-876467.jpg&quot;);width:100%;height:600px;background-size:cover;">
-                <div class="d-flex justify-content-center align-items-center align-content-center" style="height:100%;">				<div class="caption v-middle text-center">
-					<h1 class="cd-headline clip">
-			            <span class="blc">Soy | </span>
-			            <span class="cd-words-wrapper">
-			              <b class="is-visible">Creativa.</b>
-			              <b>Diseñadora UX.</b>
-			              <b>Comunicadora.</b>
-			            </span>
-	          		</h1>
-				</div></div>
-            </div>
-        </section>
-        <section class="portfolio-block skills" style="padding-top:50px;">
+    </div>
+    <!-- preloader end -->
+    <!-- header section start -->
+    <header class="headroom header--fixed hidden-xs">
+        <div class="menu-area">
             <div class="container">
-                <div class="heading">
-                    <h2>HABILIDADES</h2>
+                <div class="logo floatleft">
+                    <a href="index.html">ALEXANDRA MIÑANO</a>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-android-search" style="background-color:rgb(33,35,35);"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Investigación</h3>
-                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                <div class="main-menu floatright">
+                    <nav>
+                        <ul>
+                            <li class="active">
+                                <a class="scroll-me" href="#home">inicio</a>
+                            </li>
+                            <li>
+                                <a class="scroll-me" href="#about">sobre mí</a>
+                            </li>
+                            <li>
+                                <a class="scroll-me" href="#my-servive">habilidades</a>
+                            </li>
+                            <li>
+                                <a class="scroll-me" href="#portfolio">Trabajo</a>
+                            </li>
+                            <li>
+                                <a class="scroll-me" href="#skill">Herramientas</a>
+                            </li>
+                            <li>
+                                <a class="scroll-me" href="#testimonial">testimonios</a>
+                            </li>
+                            <li>
+                                <a class="scroll-me" href="#blog">blog
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="drop-menu">
+                                    <li>
+                                        <a href="blog.html">Todas las entradas</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="blog_details.html">última entrada</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="scroll-me" href="#contact">contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+    <!-- meanmenu section start-->
+    <div class="mobile-menu-area">
+        <div class="mobile-menu float-right hidden-sm hidden-md hidden-lg">
+            <nav>
+                <ul>
+                    <li>
+                        <a class="scroll-me" href="#home">inicio</a>
+                    </li>
+                    <li>
+                        <a class="scroll-me" href="#about">sobre mí</a>
+                    </li>
+                    <li>
+                        <a class="scroll-me" href="#my-servive">habilidades</a>
+                    </li>
+                    <li>
+                        <a class="scroll-me" href="#portfolio">trabajo</a>
+                    </li>
+                    <li>
+                        <a class="scroll-me" href="#skill">herramientas</a>
+                    </li>
+                    <li>
+                        <a class="scroll-me" href="#testimonial">testimonios</a>
+                    </li>
+                    <li>
+                        <a class="scroll-me" href="#blog">blog</a>
+                        <ul>
+                            <li>
+                                <a href="blog.html">Todas las entradas</a>
+                            </li>
+                            <li>
+                                <a href="blog_details.html">última entrada</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="scroll-me" href="#contact">contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- meanmenu section end-->
+    <!-- home section end -->
+    <div class="home-area" id="home">
+        <div class="container">
+            <div class="home">
+                <div class="home-text">
+                    <h1 class="hr-title">Mi nombre es
+                        <br />
+                        <span>Alexandra Miñano</span>
+                    </h1>
+                    <h2 class="hr-sub-title">Soy UX Designer</h2>
+                </div>
+                <div class="scroll-down">
+                    <a class="scroll-me" href="#about">
+                        <i class="fa fa-angle-down"></i>
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home section end -->
+    <!-- about section start -->
+    <div class="about-section ptb-80" id="about">
+        <div class="container">
+            <div class="about-me">
+                <h1 class="big-title mar-bot-30 text-center">Sobre mí</h1>
+                <div class="abt-left">
+                    <h1 class="big-title">Visión
+                        <br /> Integral</h1>
+                    <p class="abt-p">Bachiller en comunicación social especializada en UX Design, enfocada en la
+                        investigación, el descubrimiento de insights
+                        y el diseño de prototipos. Cuento con capacidad de análisis, habilidades de negociación y
+                        facilidad
+                        para trabajar en equipo, lo cual me permite lograr resultados eficientes. Asimismo, poseo
+                        conocimientos
+                        avanzados en metodologías ágiles, design thinking y herramientas de prototipado como Figma,
+                        Adobe
+                        XD y Marvel.</p>
+
+                    <a href="img/clients/cv.pdf" download>Descargar cv</a>
+                    <div class="modal fade" id="hire">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-compose-outline" style="background-color:rgb(33,35,35);"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Prototipado</h3>
-                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+                <div class="abt-right">
+                    <img src="img/abt_right.jpg" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about section end -->
+    <!-- my servive section start -->
+    <div class="my-servive ptb-80" id="my-servive">
+        <div class="container">
+            <h1 class="big-title text-center">habilidades</h1>
+            <p class="sub-title mar-bot-50">destrezas técnicas para generar ideas y convertirlas en prototipos.</p>
+            <div class="servive">
+                <div class="col-sm-4 col-md-4">
+                    <div class="single-service mar-bot-30 text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-sitemap"></i>
+                        </div>
+                        <h3>arquitectura de la información</h3>
+                        <p>Organizar, diseñar y etiquetar productos de información para apoyar la usabilidad, la
+                            comprensión y la organización de websites.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="single-service mar-bot-30 text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-paint-brush"></i>
+                        </div>
+                        <h3>Diseño visual</h3>
+                        <p>Diseño de prototipos interactivos funcionales desarrollados según las necesidades del
+                            proyecto y principios de usabilidad.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="single-service mar-bot-30 text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-diamond"></i>
+                        </div>
+                        <h3>ideación</h3>
+                        <p>Proceso sistemático centrado en generar un gran número de ideas que permitan resolver
+                            problemas y su posterior evaluación.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="single-service text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <h3>investigación</h3>
+                        <p>Actividad que permite recopilar y analizar la información obtenida de los usuarios, en
+                            intersección con el contexto y el negocio.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="single-service text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-book"></i>
+                        </div>
+                        <h3>storytelling</h3>
+                        <p>Destreza de extraer insights, de las experiencias de los usuarios, para integrarlos a los
+                            productos añadiéndoles valor.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="single-service text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <h3>prototipado</h3>
+                        <p>Proceso de plasmar soluciones rápidas en bocetos e ir iterando hasta lograr prototipos más
+                            cercanos al resultado final.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- my servive section end -->
+    <!-- portfolio section start -->
+    <div class="portfolio-section ptb-80" id="portfolio">
+        <div class="container">
+            <div class="portfolio-title">
+                <h1 class="big-title mar-bot-15">mi trabajo</h1>
+            </div>
+            <div class="portfolio-menu">
+                <nav>
+                    <ul>
+                        <li class="active p-act" data-filter="*">todo</li>
+                        <li class="p-act" data-filter=".fashion">Diseño</li>
+                        <li class="p-act" data-filter=".portraits">Rediseño</li>
+                        <li class="p-act" data-filter=".editorial">sitio Web</li>
+                        <li class="p-act" data-filter=".other">otro</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="portfolio" id="container">
+                <div class="prt-item fashion portraits col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/1.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>sitio web</h3>
+                                <p>DataDashboard</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://debbievejarano.github.io/lim-2018-05-bc-core-pm-datadashboard/src/">ver más</a>
+                                </h3>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-iphone" style="background-color:rgb(33,35,35);"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Diseño visual</h3>
-                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+                <div class="prt-item fashion portraits other col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/2.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>Diseño ux</h3>
+                                <p>Market place/Desktop</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://www.figma.com/proto/N2jgGGTyUkneynXbgbNFTRbM/ONE-LOVE-DESKTOP?node-id=1%3A2&scaling=min-zoom">ver más</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-item editorial portraits col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/3.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>sitio web</h3>
+                                <p>Trivia</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://debbievejarano.github.io/Pre-admisi-n/">ver más</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-item fashion portraits other col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/4.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>Diseño ux</h3>
+                                <p>Market place/mobile</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://www.figma.com/proto/FsLLFW4wGAOlJ0zEpD11TaQ3/ONE-LOVE-MOBILE-iteraci%C3%B3n?node-id=0%3A1&scaling=min-zoom">ver más</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-item editorial portraits col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/4.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>Diseño ux</h3>
+                                <p>market place/mobile</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://www.figma.com/proto/FsLLFW4wGAOlJ0zEpD11TaQ3/ONE-LOVE-MOBILE-iteraci%C3%B3n?node-id=0%3A1&scaling=min-zoom">ver más</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-item fashion editorial col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/5.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>sitio web</h3>
+                                <p>social network</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://debbievejarano.github.io/lim-2018-05-bc-core-pm-socialnetwork/src/">ver más</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-item editorial portraits other col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/6.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>sitio web</h3>
+                                <p>Reto cipher</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://debbievejarano.github.io/lim-2018-05-bc-core-pm-cipher/src/">ver más</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-item fashion  col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/7.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>sitio web</h3>
+                                <p>foodmap</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://debbievejarano.github.io/lim-2018-01-foodmap/src/">ver más</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-item portraits col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/1.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>sitio web</h3>
+                                <p>Data Dashboard</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://debbievejarano.github.io/lim-2018-05-bc-core-pm-datadashboard/src/">ver más</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-item editorial  col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/9.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>rediseño ux</h3>
+                                <p>financial app</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://marvelapp.com/5idhbh3">ver más</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-item editorial  col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/8.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>Diseño ux</h3>
+                                <p>social network/mobile</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="https://xd.adobe.com/view/78192a0c-b856-45c5-5a1f-2016ee8e2a82-0e28/">ver más</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-item editorial col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="single-item">
+                            <img src="img/portfolio/10.jpg" alt="portfolio_image" />
+                            <div class="wrk-detail">
+                                <h3>Otros</h3>
+                                <p>diseño de tarjetas</p>
+                                <span class="wrk-line"></span>
+                                <h3>
+                                    <a href="#blog">ver más</a>
+                                </h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
-    <section class="portfolio-block website" style="background-color:#ffe9ed;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-9 col-lg-5 offset-lg-1 text">
-                    <h3>Sobre Mí</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efr nunc, vivamus vel accumsan dui. Quisque ac dolor cursus, volutpat nisl vel, porttitor eros.</p>
+        </div>
+    </div>
+    <!-- portfolio section end -->
+    <!-- skill section start -->
+    <div class="skill-section ptb-80" id="skill">
+        <h1 class="big-title text-center">Herramientas</h1>
+        <div class="skills">
+            <div class="container">
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="counter-item bdr-none">
+                            <span class="counter" data-count="90"></span>
+                            <span>%</span>
+                            <p>Figma</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3"><img src="assets/img/beautiful-casual-dress-884579.jpg" style="width:128px;"></div>
-                <div class="col-md-12 col-lg-5">
-                    <div class="portfolio-laptop-mockup"></div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="counter-item">
+                            <span class="counter" data-count="85"></span>
+                            <span>%</span>
+                            <p>Adobe XD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="counter-item sm-hide-bdr">
+                            <span class="counter" data-count="65"></span>
+                            <span>%</span>
+                            <p>marvel</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="counter-item">
+                            <span class="counter" data-count="78"></span>
+                            <span>%</span>
+                            <p>Design thinking</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <footer class="page-footer">
+    </div>
+    <!-- skill section end -->
+    <!-- testimonial section start -->
+    <div class="testimonial-section ptb-80" id="testimonial">
         <div class="container">
-            <div class="links"><a href="#">Acerca de mí</a><a href="#">Contáctame</a><a href="#">Portafolio</a></div>
-            <div class="social-icons"><a href="#"><i class="icon ion-social-github"></i></a><a href="#"><i class="icon ion-social-linkedin"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+            <h1 class="big-title text-center">testimonios</h1>
+            <p class="sub-title mar-bot-30">lo que comentan de mí</p>
+            <div class="testimonial owl-carousel">
+                <div class="single-testimonial">
+                    <img src="img/clients/1.jpg" alt="client image" class="client">
+                    <p class="client-say">Supervisé directamente el trabajo de Alexandra cuando realizaba la función de cliente incógnita para la 
+                        <br /> corporación Falabella. La defino como una persona colaboradora, con criterio y actitud positiva
+                        <br />ante todos los retos que se le propongan.</p>
+                    <p class="client-name">Hugo Bernaola | Supervisor sénior - Belcorp</p>
+                </div>
+                <div class="single-testimonial">
+                    <img src="img/clients/3.jpg" alt="client image" class="client">
+                    <p class="client-say">Puedo corroborar la pasión que Alexandra le entrega a los proyectos en los que participa.
+                        <br /> Siempre la recuerdo curiosa y con muchas ganas de aprender. Estoy segura que en
+                        <br />dónde se encuentre realizará un gran trabajo</p>
+                    <p class="client-name">Andrea Tarazona | Coordinadora Regional de Liderazgo - Enseña Perú</p>
+                </div>
+                <div class="single-testimonial">
+                    <img src="img/clients/2.jpg" alt="client image" class="client">
+                    <p class="client-say">Alexandra me contactó para apoyarla con unos talleres dirigidos a niños en la comunidad de San Marcos - Ancash.
+                        <br /> Ella siempre busca conocer temas nuevos para implementarlos en su trabajo.
+                        <br />Me agrada mucho que siempre esté abierta a las sugerencias.</p>
+                    <p class="client-name">Estefanía Ariza | MIDIS - Monitora de gestión local</p>
+                </div>
+            </div>
         </div>
+    </div>
+    <!-- testimonial section end -->
+    <!-- blog section start -->
+    <div class="blog-section ptb-80" id="blog">
+        <div class="container">
+            <h1 class="big-title text-center">mi blog</h1>
+            <p class="sub-title mar-bot-30">te cuento mi proceso para diseñar productos y experiencias agradables</p>
+            <div class="blogs">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="row">
+                        <div class="single-blog floatright">
+                            <a href="blog_details.html">
+                                <img src="img/blog/2.jpg" alt="blog image">
+                            </a>
+                            <div class="blog-info">
+                                <h1 class="blog-title">
+                                    <a href="blog_details.html">UX detrás de un marketplace</a>
+                                </h1>
+                                <p>
+                                    <span class="by">por</span>
+                                    <span class="by-auth">Alexandra Miñano</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="row">
+                        <div class="single-blog floatleft">
+                            <a href="blog_details.html">
+                                <img src="img/blog/1.jpg" alt="blog image">
+                            </a>
+                            <div class="blog-info">
+                                <h1 class="blog-title">
+                                    <a href="blog2.html">De las ideas al dashboard</a>
+                                </h1>
+                                <p>
+                                    <span class="by">por </span>
+                                    <span>Alexandra Miñano</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="blog.html">ver más
+                        <i class="fa fa-long-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog section end -->
+    <!-- contact section start -->
+    <div class="contact-section ptb-80" id="contact">
+        <div class="container">
+            <div class="contact-title">
+                <h1 class="big-title mar-bot-35 text-center">Contáctame</h1>
+            </div>
+            <div class="contact-form">
+                <div class="cf-msg"></div>
+                <form action="mail.php" method="post" id="cf">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <i class="fa fa-phone"></i>
+                            <span class="top-spn">+51 991698683</span>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <i class="fa fa-map"></i>
+                            <span class="top-spn">Lima - Perú</span>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <i class="fa fa-envelope"></i>
+                            <span class="top-spn">alexandra.vejarano@gmail.com</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- contact section end -->
+    <!-- scrollup section start -->
+    <div class="scrollup-sec">
+        <a class="scrollup" href="#home">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </div>
+    <!-- scrollup section end -->
+    <!-- footer section start-->
+    <footer>
+        <div class="ftr-social">
+            <nav>
+                <ul>
+                    <!--                         <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+                    <li>
+                        <a href="https://www.behance.net/alexandravejarano">
+                            <i class="fa fa-behance"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/DebbieVejarano">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/alexandra-mi%C3%B1ano-87544572/?originalSubdomain=pe">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <p class="ftr-cright">&copy; 2018
+            <span>Alexandra Miñano</span> Todos los derechos reservados.</p>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/Animated-Type-Heading.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
-    <script src="assets/js/theme.js"></script>
+    <!-- footer section end-->
+
+    <!-- all js here -->
+    <script src="js/vendor/jquery-3.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/jquery.meanmenu.js"></script>
+    <script src="js/headroom.js"></script>
+    <script src="js/theme_common.js"></script>
+    <script src="js/theme.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,319 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 1, 2017, 12:19:58 PM
+    Author     : Rashad
+*/
+.blog-crumbs {}
+.blog-crumbs h1 {}
+.blog-crumbs p {}
+.blog-crumbs p a {
+    color: white;
+    display: inline-block;
+    padding: 0px 6px;
+}
+.blog-crumbs p a i{
+    margin-left: 5px;
+}
+.blog-crumbs p a.active{
+    color: #ed7f7f;
+}
+.single-blog-section {
+    padding-top: 80px;
+}
+.blog-post-sec {
+    padding: 0px;
+}
+/*left section*/
+.left-section {}
+.left-section .blog-post-sec{}
+.left-section .single-blog-p{}
+.left-section .blog-img{
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    padding-right: 0px;
+}
+.left-section .blog-img img{
+    width: 100%;
+}
+.left-section p.post-text {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+blockquote {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-left: 4px solid #ed7f7f;
+    margin: 40px 0;
+    padding: 50px 50px;
+}
+blockquote > p {
+    color: #ed7f7f;
+    font-size: 18px;
+    font-style: italic;
+    position:relative;
+}
+blockquote p::before {
+    content: "";
+    font-family: FontAwesome;
+    left: -24px;
+    position: absolute;
+    top: -12px;
+}
+.left-section .blog-p-info{
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-right: 0px;
+}
+.line {
+    height: 1px;
+    width: 100%;
+    background: #ddd;
+    overflow: hidden;
+    margin: 50px 0px;
+}
+.blog-post-author {
+    overflow: hidden;
+    background: #ed7f7f;
+    margin-bottom: 50px;
+}
+.author-desc-area{
+    background: #374455;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+.author-desc {
+    overflow: hidden;
+    width: 310px;
+    margin: auto;
+}
+.author-img {
+    width: 90px;
+    float: left;
+}
+.author-img img {
+    width: 100%;
+    border-radius: 50%; 
+}
+.author-d {
+    float: right;
+    padding-top: 22px;
+}
+.author-d h4.p-auth-name {
+    font-size: 17px;
+    color: whitesmoke;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+.author-d h4.p-auth-prof{
+    font-size: 17px;
+    color: #02CCB2;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+.author-social {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-top: 51px;
+    text-align: center;
+}
+.author-social a {
+    color: whitesmoke;
+    font-size: 16px;
+    margin:0px 17px;
+}
+.author-social a:hover{
+    color: #444!important;
+}
+.comment-section{}
+.comment-section h2, .comment-title h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 22px;
+    margin-bottom: 15px;
+    letter-spacing: 0.1em;
+    color: #444;
+}
+.comment-section h2 span.active {
+    font-family: 'Montserrat', sans-serif;
+    color: #ed7f7f;
+}
+.comment-section p {
+    line-height: 18px;
+    margin-top: 5px;
+}
+.u-media {
+    overflow: hidden;
+    margin-top: 30px;
+}
+.u-media-left {
+    width: 70px;
+    float: left;
+}
+.u-media-left img.u-media-object {
+    min-width: 100%;
+    border-radius: 50%;
+}
+.u-media-body {
+    width: calc(100% - 70px);
+    float: right;
+    padding-left: 20px;
+}
+.u-media-body h4.u-media-heading {
+    font-size: 15px;
+    color: #444;
+    line-height: 19px;
+}
+.u-media-body h4.u-media-heading small{}
+.u-media-body h4.u-media-heading small i{}
+.u-media-body p{
+    line-height: 18px;
+    margin-top: 5px;
+    color: #666;
+}
+.u-media-body a {
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #666;
+    letter-spacing: 0.1em;
+    display: block;
+    line-height: 17px;
+    margin-top: 3px;
+}
+.comment-box {
+    margin-bottom: 80px;
+}
+.comment-title{}
+.comment-title h5 {
+    margin-top: 50px;
+}
+.form-input{}
+.input-filed{}
+.input-filed input[type='text'] {
+    margin-bottom: 20px;
+}
+.form-textarea{}
+.submit-form{}
+.submit-form button {
+    height: 40px;
+    width: 114px;
+    border: 1px solid transparent;
+    background: #444;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: whitesmoke;
+}
+.submit-form button:hover{
+    background: transparent;
+    color: #444;
+    border: 1px solid #444;
+}
+/*right section*/
+.right-section {
+    padding-left: 20px;
+}
+.post-search {
+    position: relative;
+    margin-bottom: 40px;
+}
+.post-search input[type='text'], .input-filed input[type='text'], .form-textarea textarea{
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #e1e1e1;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 300;
+    height: 40px;
+    padding: 0 10px;
+    width: 100%;
+}
+.form-textarea textarea {
+    min-height: 180px;
+    margin-bottom: 20px;
+}
+.post-search button.search-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-left: 1px solid #e4e1e1;
+    border-radius: 20px 0px 0px 0px;
+    transition: all .8s ease 0s;
+}
+.post-search button.search-btn:hover{
+    background-color: #ed7f7f;
+    color: white;
+}
+.post-categories{}
+.post-categories h5, h1.recent-post, .post-archive h5{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #444;
+    letter-spacing: 0.1em;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #de9d9d;
+    padding-bottom: 2px;
+    line-height: 24px;
+}
+ul.post-categories-list {
+    margin-bottom: 40px;
+    margin-top: 22px;
+}
+ul.post-categories-list li{}
+ul.post-categories-list li a, ul.post-archive-list li a {
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 0.02em;
+    display: block;
+    padding: 10px 0px;
+    border-top: 1px solid #f3f0f0;
+}
+ul.post-categories-list li:first-child a, ul.post-archive-list li:first-child a{
+    border-top: 1px solid transparent;
+}
+ul.post-categories-list li a span {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+h1.recent-post{}
+.recent-list{}
+.recent-list ul{}
+.recent-list ul li {
+    border-top: 1px solid #ddd;
+    padding: 18px 0px;
+}
+.recent-list ul li:first-child{
+    border-top: 1px solid transparent;
+}
+.recent-list ul li a{
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 0.02em;
+    display: block;
+    margin-bottom: 2px;
+}
+.recent-list ul li p {
+    line-height: 18px;
+}
+.recent-list ul li p span.date-titme {
+    font-size: 13px;
+    color: #9E9E9E;
+    font-family: 'Montserrat', sans-serif;
+}
+.post-archive{
+    margin-top: 40px;
+}
+.post-archive h5{}
+.post-archive-list {
+    margin-top: 22px;
+}
