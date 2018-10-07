@@ -320,7 +320,7 @@ ul.drop-menu li a:hover{
     transform: translateY(-50%);
 }
 .home-text h1.hr-title {
-    font-size: 37px;
+    font-size: 18px;
     color: #777171;
     line-height: 54px;
     text-transform: uppercase;
@@ -342,7 +342,7 @@ ul.drop-menu li a:hover{
     text-transform: uppercase;
     margin-top: 3px;
     color: #3f3d3d;
-    font-size: 13px;
+    font-size: 24px;
     line-height: 20px;
     font-weight: 300;
     letter-spacing: 0.3em;

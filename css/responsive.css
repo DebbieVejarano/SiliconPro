@@ -292,15 +292,15 @@
         bottom: 8px;
     }
     .home-text h1.hr-title span {
-        font-size: 20px;
+        font-size: 24px;
     }
     .home-text h1.hr-title {
-        font-size: 18px;
+        font-size: 10px;
         line-height: 26px;
         letter-spacing: 0.1em;
     }
     .home-text h2.hr-sub-title {
-        font-size: 10px;
+        font-size: 16px;
         line-height: 17px;
     }
     .abt-left {
