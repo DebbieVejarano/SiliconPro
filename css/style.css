@@ -740,7 +740,9 @@ p.sub-title {
 /*------------------------------
   8. TESTIMONIAL SECTION START
   ------------------------------*/
-.testimonial-section{}
+.testimonial-section{
+    background: #f8f4f5;
+}
 .testimonial-section .testimonial{}
 .testimonial-section .single-testimonial{}
 .testimonial-section .single-testimonial img {
@@ -869,7 +871,9 @@ p.sub-title {
 /*------------------------------
   10. CONTACT SECTION START
   ------------------------------*/
-.contact-section {}
+.contact-section {
+    
+}
 .contact-title{}
 .contact-form {
     width: 80%;
